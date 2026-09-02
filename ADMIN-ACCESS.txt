@@ -1,0 +1,16 @@
+VELORIAN BANK — PRIVATE ADMINISTRATOR ROUTE
+
+Public client website:
+  /index.html
+Client login:
+  /client-login.html
+Client dashboard:
+  /client/index.html
+
+Private administrator login:
+  /control-center/login.html
+Administrator dashboard:
+  /control-center/index.html
+
+The administrator route is intentionally not linked from the public homepage.
+For real production financial use, replace browser-only authentication/localStorage with a server-side backend, database, HTTPS, secure sessions, MFA, audit logging, and server-side role authorization.
